@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# 検索処理"
+          }
+        ],
+        "line": 4,
+        "name": "検索処理",
+        "description": "",
+        "id": "yahooのテスト;検索処理",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18753238956,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Chromeを起動",
+            "match": {
+              "location": "Practice.chromeを起動()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7799685563,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Yahooのページを開く",
+            "match": {
+              "location": "Practice.yahooのページを開く()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140027944,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Yahooのページが表示される",
+            "match": {
+              "location": "Practice.yahooのページが表示される()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283762884,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "検索に\"ベリサーブ\"を入力する",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ベリサーブ",
+                  "offset": 4
+                }
+              ],
+              "location": "Practice.検索に_を入力する(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3020321762,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "検索ボタンをクリックする",
+            "match": {
+              "location": "Practice.検索ボタンをクリックする()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934715175,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Chromeを閉じる",
+            "match": {
+              "location": "Practice.chromeを閉じる()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Yahooのテスト",
+    "description": "",
+    "id": "yahooのテスト",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/example/example1/sample.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Practice"
+      }
+    ]
+  }
+]
