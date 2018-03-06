@@ -13,5 +13,5 @@ import cucumber.api.junit.Cucumber;
         glue="com.example.example1",
         monochrome = true
         )
-public class RunnerClass {
+public class TestRunnerClass {
 }
